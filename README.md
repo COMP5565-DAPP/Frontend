@@ -3,11 +3,15 @@
 ## quick start
 
 ```
-
-yarn install 
-#or
+# Installation of dependent libraries
+yarn install
+#or 
 npm install
 
+# You can use --force if there are some version conflicts about dependencies 
+yarn install --force
+
+# start 
 npm run start
 
 ```
@@ -17,12 +21,6 @@ npm run start
 .
 ├── README.md
 ├── build
-│   ├── apple-icon.png
-│   ├── asset-manifest.json
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-├── commit.sh
 ├── gulpfile.js
 ├── jsconfig.json
 ├── package-lock.json
@@ -77,22 +75,4 @@ npm run start
 
 
 
-
-
-```
-
-​            
-'username' : 
-'companyName': companyName, 
-
-​            'password': password, 
-
-​            'address': address, 
-
-​            "Num": companyNum,
-
-​            'role': role  #company type)
-
-
-```
 
